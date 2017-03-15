@@ -2,7 +2,7 @@
 require('babel-register')({
   "presets": [
     "es2015",
-    "stage-0"
+    "stage-3"
   ],
   "plugins": [
     "add-module-exports",

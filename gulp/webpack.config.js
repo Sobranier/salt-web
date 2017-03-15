@@ -23,8 +23,8 @@ export default {
 			exclude: /(node_modules)/,
 			loader: 'babel-loader',
 			query: {
-				presets: ['react', 'es2015', 'stage-0'],
-                plugins: ['add-module-exports', 'transform-decorators-legacy']
+				presets: ['react', 'es2015', 'stage-3'],
+        plugins: ['add-module-exports', 'transform-decorators-legacy', 'transform-class-properties']
 			}
 		}, {
 			test: /\.less$/,
