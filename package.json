@@ -39,6 +39,7 @@
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2",
     "koa": "^2.2.0",
+    "koa-convert": "^1.2.0",
     "postcss-loader": "^0.9.1",
     "postcss-scss": "^0.1.8",
     "postcss-sprites": "^3.2.0",

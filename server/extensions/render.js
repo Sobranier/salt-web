@@ -5,6 +5,6 @@ import path from 'path';
 
 let tmpl = _.template(fs.readFileSync(path.join(config.path.views, 'index.html')));
 
-export default function render(param) {
-    this.body = tmpl(param);
+export default function render(app, param) {
+  app.body = tmpl(param);
 }
